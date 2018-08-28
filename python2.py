@@ -1,5 +1,5 @@
 no=int(input("Enter Number"))
-if a%2=0:
+if(no%2==0):
     print("the no is even number")
 else:
     print("the no is odd number")
