@@ -1,13 +1,12 @@
 print("enter three numbers:")
  
-a = int(input())
-b = int(input())
-c = int(input())
- 
-if a>b and a>c:
-    print(a, " is largest")
-elif b>a and b>c:
-    print(b, " is largest")
+l = int(input())
+m = int(input())
+n = int(input())
+if l>m and l>n:
+    print(l, " is largest")
+elif m>l and m>n:
+    print(m, " is largest")
 else:
-    print(c, " is largest")
+    print(n, " is largest")
 
