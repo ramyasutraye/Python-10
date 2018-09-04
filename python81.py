@@ -1,5 +1,4 @@
-N = int(input("Enter a number: "))  
-  
+N = int(input("Enter a number: "))    
 if N < 0:  
    print("Enter a positive number")  
 else:  
