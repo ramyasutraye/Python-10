@@ -1,6 +1,6 @@
 N = int(input("Enter a number: "))    
 if N < 0:  
-   print("Enter a positive number")  
+   print("invalid number")  
 else:  
    sum = 0   
    while(N > 0):  
