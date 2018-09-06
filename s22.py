@@ -1,4 +1,6 @@
 N=int(input("number is="))
+if(N<=0):
+    print("invalid")
 if(N<=1000):
     t=N
     rev=0
