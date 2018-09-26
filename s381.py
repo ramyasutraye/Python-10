@@ -5,4 +5,4 @@ t%=3600
 m=t//60
 t%=60
 s=t
-print("the output is:"h,m,s)
+print("the output is:",h,m,s)
