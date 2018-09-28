@@ -1,3 +1,6 @@
 string=raw_input("input:")
-length=len(string.split lines())
-print length
+lines=0
+for x in string:
+  if x=".":
+    lines=lines+1
+print lines+1
