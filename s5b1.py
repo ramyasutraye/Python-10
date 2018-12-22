@@ -1,5 +1,3 @@
-s=str(input("string="))
-print(s)
-n=int(input("k="))
-print(n)
+s=str(input(" "))
+n=int(input(" "))
 print (s*n)
