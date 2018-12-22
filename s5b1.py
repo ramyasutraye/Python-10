@@ -1,4 +1,4 @@
-s=raw_input("string=")
+s=str(input("string="))
 print(s)
 n=int(input("k="))
 print(n)
