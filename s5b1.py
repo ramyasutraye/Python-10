@@ -1,0 +1,5 @@
+s=raw_input("string=")
+print(s)
+n=int(input("k="))
+print(n)
+print (s*n)
