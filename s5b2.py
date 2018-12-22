@@ -1,5 +1,5 @@
-s1=str(input(" "))
-s2=str(input(" "))
+s1=int(input(" "))
+s2=int(input(" "))
 c=len(s1)
 d=len(s2)
 if(c>d):
