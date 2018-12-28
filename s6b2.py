@@ -1,12 +1,28 @@
-a = input()
+numbers = [x for x in range(0, 10)] #[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+numWords = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+translate = dict(zip(numbers, numWords))
+digits = {1:'rupees', 2: 'and', 3: 'hundred', 4: 'thousand'}
  
-num2words1 = {1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five', \             6: 'Six', 7: 'Seven', 8: 'Eight', 9: 'Nine', 10: 'Ten', \             11: 'Eleven', 12: 'Twelve', 13: 'Thirteen', 14: 'Fourteen', \             15: 'Fifteen', 16: 'Sixteen', 17: 'Seventeen', 18: 'Eighteen', 19: 'Nineteen'}
+numDigits = 100
+num = int(input())
+res =""
  
-num2words2 = ['Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety']
+#to loop till we get the answer
+while numDigits >= 2:
+   #to find number of digits
+   
+   numDigits = len(str(num))
  
-def number(Number):
- if 1 <= Number < 19: 
-return num2words1[Number] 
-elif 20 <= Number <= 99: tens, below_ten = divmod(Number, 10) 
-return num2words2[tens - 2] + ' ' + num2words1[below_ten]
- else: print("Number out of range")
+   #to get the first digit
+   numString = str(num)
+   first = int(numString[0])
+ 
+   #to get the first output and the thousand, hundred and 'and'
+   if numDigits == 2:
+      res += " " + digits[numDigits] + " " + translate[first]
+   else:
+      res += " " + translate[first] + " " + digits[numDigits]
+   
+   #to decrease by a digit we modulus divide by 1e(numDigits-1)
+   num %= pow(10, numDigits-1)
+print(res)
