@@ -1,4 +1,4 @@
-n=input("enter")
+n=input(" ")
 if(n.isprintable()):
     if(n.isalpha()):
        print("no")
