@@ -1,4 +1,4 @@
-n = int(input("Please Enter any Number: "))
+n = int(input(" "))
 Count = 0
 while(n > 0):
     n = n // 10
