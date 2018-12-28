@@ -1,23 +1,9 @@
-if(a == 0):
-
-        return False
-
-    while (a!=1):
-
-            if((a%2)!=0):
-
-                return False
-
-            a=a//2
-
-    return True
-
-n=input()
-
-if(pot(n)):
-
-    print("yes")
-
-else:
-
-    print("no")
+n=int(input(" "))
+i=2
+while (i<=n) :
+  if i==n:
+    print('yes')
+    break
+  i=i*2
+if i!=n:
+  print('no')
