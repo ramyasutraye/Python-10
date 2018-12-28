@@ -1,14 +1,14 @@
 def main():
    try:
-	c=0
-	k=0
+	a=0
+	b=0
 	n=input()
 for i in n:
 if i.isalpha():
-	c=c+1
+	a=a+1
 elif i.isnumeric():
-	k=k+1
-if c+k==len(n) and c>0 and k>0:
+	b=b+1
+if a+b==len(n) and a>0 and b>0:
 	print('yes')
 else :
 	print('no')
