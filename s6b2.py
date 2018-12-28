@@ -1,7 +1,7 @@
 numbers = [x for x in range(0, 10)] #[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 numWords = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 translate = dict(zip(numbers, numWords))
-digits = {1:'rupees', 2: 'and', 3: 'hundred', 4: 'thousand'}
+digits = {1:'only', 2: 'and', 3: 'hundred', 4: 'thousand'}
  
 numDigits = 100
 num = int(input())
