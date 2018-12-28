@@ -1,6 +1,23 @@
-n=int(input(" "))
-for i in range(2,100):
-    if(2**i==n):
-        print(2,"^",i)
-    else:
-        print("not power of two")
+if(a == 0):
+
+        return False
+
+    while (a!=1):
+
+            if((a%2)!=0):
+
+                return False
+
+            a=a//2
+
+    return True
+
+n=input()
+
+if(pot(n)):
+
+    print("yes")
+
+else:
+
+    print("no")
