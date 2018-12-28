@@ -1,6 +1,5 @@
-print("Enter the input")
-a=[]
-for i in range(0,10):
-    n=int(input(" "))
-    a.append(n)
-print max(a)
+c=[]
+for i in range(1,11):
+   b=input(" ")
+   c.append(b)
+print(max(c))
