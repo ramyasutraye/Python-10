@@ -1,8 +1,8 @@
-m=int(input("enter the no"))
-n=int(input("enter the no"))
+m=int(input(""))
+n=int(input(" "))
 d=[]
 for i in range(0,m):
-    c=int(input("enter"))
+    c=int(input(" "))
     d.append(c)
 if(n in d):
     print("yes")
