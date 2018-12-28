@@ -1,12 +1,6 @@
-def oddeven(a):
-	if a%2==0:
-		print("even");
-	else:
-		print("odd");
-def mul2():
-	try:
-		b=int(input())
-		a=int(input())
-		oddeven(b*a)
-	except:
-		print('invalid');
+m=int(input("enter the no"))
+n=int(input("enter the no"))
+if((m*n)%2==0):
+    print("even")
+else:
+    print("odd")
