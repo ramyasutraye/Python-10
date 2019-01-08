@@ -2,8 +2,8 @@ N=int(input(" "))
 if N>=0:
 	n=N%7
 	if(n==0):
-    	print("Yes")
+    		print("yes")
 	else:
-    	print("No")
+    		print("no")
 else:
-  print("invalid")
+	print("invalid")
