@@ -1,6 +1,6 @@
-s=raw_input(" ")
-if(len(s)%2==0):
-    s=s[:int((len(s)/2))-1]+'**'+s[int(len(s)/2)+1:]
+n=raw_input(" ")
+if(len(n)%2==0):
+    n=n[:int((len(n)/2))-1]+'**'+n[int(len(n)/2)+1:]
 else:
-    s=s[:int(len(s)/2)]+'*'+s[int(len(s)/2)+1:]
-print(s)
+    n=n[:int(len(n)/2)]+'*'+n[int(len(n)/2)+1:]
+print(n)
